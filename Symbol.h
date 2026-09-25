@@ -1,5 +1,7 @@
 #pragma once
-#define NOMINMAX
+#ifndef NOMINMAX
+#define NOMINMAX 1
+#endif
 #include <windows.h>
 
 // Один символ: его место, буква и цвет.
